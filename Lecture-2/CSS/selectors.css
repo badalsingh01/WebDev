@@ -1,0 +1,50 @@
+/*h1 {
+    color: red;
+}
+
+p span {
+    color: yellow;
+}
+
+p {
+    color: green;
+}
+
+li {
+    color: grey;
+}
+
+#heading {
+    background-color: orangered;
+}
+
+#para {
+    background-color: orchid;
+}
+
+.bluecolor {
+    color: blue;
+}
+
+.backorchid {
+    background-color: lavender;
+}
+*/
+
+ul>li {
+    font-size: 20px;
+}
+
+/*
+li+li{
+    color: yellow;
+}
+*/
+
+a[href] {
+    font-size: 8px;
+}
+
+li[class] {
+    color: lavender;
+}
