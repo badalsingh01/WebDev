@@ -1,0 +1,53 @@
+div{
+    background-color: royalblue;
+}
+img{
+    float: left;
+    height: 350px;
+    width: 500px;
+    margin-right: 20px;
+}
+
+div::before,
+div::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/*
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+div{
+    border: 1px solid black;
+    width: 300px;
+    height: 80px;
+
+}
+*/
+/*
+
+div{
+    border: 2px solid black;
+    margin: 10px;
+    min-width: 400px;
+    max-width: 900px; 
+    background-color: blueviolet;
+}
+
+ 
+span{
+    border: 2px solid black;
+    margin: 5px;
+}
+*/
