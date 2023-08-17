@@ -1,0 +1,32 @@
+body {
+    perspective: 800px;
+}
+div {
+    height: 200px;
+    width: 150px;
+}
+/* .wrap{
+    margin-left: 50%;
+    margin-top: 10%;
+} */
+.side-a,
+.side-b {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.side-a {
+    background-color: greenyellow;
+    z-index: 100;
+    background: url(../Vegeta.jpeg) no-repeat center;
+}
+.side-b {
+    background-color: cornflowerblue;
+    transform: rotateY(180deg);
+}
+.wrap{
+    transition: all 2s;
+    transform-style: preserve-3d;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+}

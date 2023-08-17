@@ -1,0 +1,26 @@
+.div {
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    background-image: url(../Vegeta.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.55, 0.04, 0.97, 0.98);
+    transition-delay: 2s;
+    margin-left: 40%;
+    margin-top: 10%;
+    /* transform: scaleY(2);     */
+    /*transform: rotate(1turn);*/
+}
+
+.div:hover{
+    /*transition-property: background-color,border-radius;
+    transition-duration: 2s,5s;*/
+    transform: rotate(1turn);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: orange;
+} 
